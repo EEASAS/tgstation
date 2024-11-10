@@ -1,0 +1,29 @@
+/obj/effect/spawner/random/lottery
+	name = "lottery loot spawner"
+	desc = "LOADSAMONEY"
+	icon_state = "coin"
+	loot = list(
+		/obj/effect/spawner/random/trash/deluxe_garbage = 10,
+		/obj/item/clothing/gloves/color/yellow = 0.3,
+		/obj/item/storage/belt/utility/full/engi = 0.20,
+		/obj/item/stack/spacecash/c100 = 2.5,
+		/obj/item/stack/spacecash/c500 = 1,
+		/obj/item/stack/spacecash/c1000 = 0.5,
+		/obj/item/stack/spacecash/c10000 = 0.25,
+		/obj/item/stack/sheet/mineral/gold = 0.5,
+		/obj/structure/reagent_dispensers/fueltank/large = 0.19,
+		/obj/machinery/portable_atmospherics/canister/bz = 0.20,
+		/obj/machinery/portable_atmospherics/canister/tritium = 0.20,
+		/obj/item/mod/control/pre_equipped/standard = 0.20,
+		/obj/item/stack/sheet/mineral/diamond = 0.20,
+		/obj/item/reagent_containers/cup/glass/bottle/goldschlager = 0.20,
+		/obj/item/computer_disk/syndicate/camera_app = 0.15,
+		/obj/item/skillchip/job/engineer = 0.15,
+		/obj/item/suppressor = 0.15,
+		/obj/item/storage/toolbox/syndicate = 0.15,
+		/obj/effect/spawner/random/sakhno = 0.15,
+		/obj/item/circuitboard/machine/sleeper/fullupgrade = 0.1,
+		/obj/vehicle/sealed/mecha/gygax = 0.1,
+		/obj/item/gun/energy/pulse = 0.05,
+		/obj/item/card/id/advanced/gold/captains_spare = 0.1,
+	)

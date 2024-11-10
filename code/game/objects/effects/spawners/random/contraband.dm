@@ -1,7 +1,7 @@
 /obj/effect/spawner/random/contraband
 	name = "contraband loot spawner"
 	desc = "Pstttthhh! Pass it under the table."
-	icon_state = "prisoner"
+	icon_state = "coin"
 	loot = list(
 		/obj/item/poster/random_contraband = 40,
 		/obj/item/food/grown/cannabis = 40,

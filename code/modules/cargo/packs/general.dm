@@ -1,5 +1,13 @@
 /datum/supply_pack/misc
 	group = "Miscellaneous Supplies"
+	
+/datum/supply_pack/misc/lottery
+	name = "Nanotrasen Lottery"
+	desc = "Participate in the Nanotrasen Lottery today!"
+	cost = CARGO_CRATE_VALUE * 15
+	contains = list(/obj/effect/spawner/random/lottery = 5)
+	crate_name = "lottery crate"
+	crate_type = /obj/structure/closet/crate/secure/cargo
 
 /datum/supply_pack/misc/artsupply
 	name = "Art Supplies"
