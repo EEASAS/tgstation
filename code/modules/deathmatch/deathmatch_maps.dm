@@ -154,6 +154,17 @@
 	map_name = "backalley"
 	key = "backalley"
 
+/datum/lazy_template/deathmatch/backalleyplus
+	name = "Backalley PLUS"
+	desc = "You are ABSOLUTELY not built for these streets."
+	max_players = 16
+	allowed_loadouts = list(
+		/datum/outfit/deathmatch_loadout/assistant,
+		/datum/outfit/deathmatch_loadout/naked,
+	)
+	map_name = "backalleyplus"
+	key = "backalleyplus"
+
 /datum/lazy_template/deathmatch/raginmages
 	name = "Ragin' Mages"
 	desc = "Greetings! We're the wizards of the wizard federation!"

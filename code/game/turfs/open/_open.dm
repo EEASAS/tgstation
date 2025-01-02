@@ -303,6 +303,10 @@
 	icon_state = /turf/open/floor/stone::icon_state
 	name = /turf/open/floor/stone::name
 
+/turf/open/indestructible/grass
+	icon_state = /turf/open/misc/grass::icon_state
+	name = /turf/open/misc/grass::name
+
 /turf/open/Initalize_Atmos(time)
 	excited = FALSE
 	update_visuals()
