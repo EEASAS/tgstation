@@ -55,6 +55,11 @@ map wawastation
 	minplayers 40
 endmap
 
+map nanostation
+	votable
+	maxplayers 25
+endmap
+
 # Debug-only maps.
 
 map gateway_test

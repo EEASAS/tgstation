@@ -1,0 +1,141 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"a" = (
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"q" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor";
+	name = "Supply Dock Loading Door"
+	},
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"u" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad"
+	},
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"y" = (
+/obj/machinery/light/directional/west,
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"B" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Supply Door Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
+/obj/docking_port/mobile/supply{
+	dir = 4;
+	port_direction = 8
+	},
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"G" = (
+/obj/machinery/light/directional/east,
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad"
+	},
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"I" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/obj/machinery/light/directional/east,
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"J" = (
+/obj/machinery/conveyor{
+	dir = 8;
+	id = "QMLoad"
+	},
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"K" = (
+/obj/machinery/power/shuttle_engine/propulsion,
+/obj/structure/window/reinforced/spawner/directional/north,
+/turf/open/floor/plating,
+/area/shuttle/supply)
+"N" = (
+/turf/closed/wall/mineral/titanium/nodiagonal,
+/area/shuttle/supply)
+"V" = (
+/obj/machinery/door/airlock/external/glass{
+	name = "Supply Door Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/supply/general,
+/turf/open/floor/iron,
+/area/shuttle/supply)
+"Y" = (
+/obj/machinery/conveyor{
+	dir = 4;
+	id = "QMLoad"
+	},
+/obj/machinery/door/poddoor{
+	id = "QMLoaddoor2";
+	name = "Supply Dock Loading Door"
+	},
+/turf/open/floor/iron,
+/area/shuttle/supply)
+
+(1,1,1) = {"
+N
+Y
+B
+N
+V
+q
+N
+"}
+(2,1,1) = {"
+N
+u
+a
+y
+a
+J
+K
+"}
+(3,1,1) = {"
+N
+u
+a
+a
+a
+J
+K
+"}
+(4,1,1) = {"
+N
+u
+a
+a
+a
+J
+K
+"}
+(5,1,1) = {"
+N
+G
+a
+a
+a
+I
+K
+"}
+(6,1,1) = {"
+N
+N
+N
+N
+N
+N
+N
+"}

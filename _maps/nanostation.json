@@ -1,0 +1,96 @@
+{
+	"version": 1,
+	"map_name": "Nano Station",
+	"map_path": "map_files/NanoStation",
+	"map_file": "NanoStation.dmm",
+	"shuttles": {
+		"emergency": "emergency_meta",
+		"ferry": "ferry_fancy",
+		"cargo": "cargo_box",
+		"whiteship": "whiteship_meta"
+	},
+	"traits": [
+		{
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		},
+		{
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		},
+		{
+			"Baseturf": "/turf/open/openspace",
+			"Linkage": "Cross"
+		}
+	]
+	,"job_changes": {
+		"Paramedic": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Lawyer": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Detective": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Cyborg": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Shaft Miner": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Bitrunner": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Janitor": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Clown": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Mime": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Chaplain": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Psychologist": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Geneticist": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Curator": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Security Officer (Medical)": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Security Officer (Engineering)": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Security Officer (Science)": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		},
+		"Security Officer (Cargo)": {
+			"spawn_positions": 0,
+			"total_positions": 0
+		}
+	}
+}
